@@ -34,7 +34,7 @@ function App() {
         <div className="row">
           <div className="col-10 mx-auto col-md-8 mt-5">
             <h3 className="text-capitalize text-center">
-              todo input
+              Todo Input
             </h3>
             <TodoInput item={React.state.item} handleChange={React.handleChange} handleSubmit={React.handleSubmit} editItem={React.state.editItem} />
             <TodoList items={React.state.items} clearList={React.clearList} handleDelete={React.handleDelete} handleEdit={React.handleEdit}/>
