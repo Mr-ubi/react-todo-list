@@ -7,13 +7,13 @@ export default class TodoInput extends Component {
             <div className="card card-body my-3 text-center"> 
                 <form onSubmit={handleSubmit}>
                     <div className="input-group">
-                            <span class="input-group-text">I need to </span>
-                            <input 
-                            type="text" 
-                            className="form-control text-capitalize"  
-                            value={item} 
-                            onChange={handleChange} 
-                            aria-label="I need to input"/>
+                        <span class="input-group-text">I need to </span>
+                        <input 
+                        type="text"
+                        className="form-control text-capitalize"
+                        value={item}
+                        onChange={handleChange}
+                        aria-label="I need to input"/>
                     </div>
                     <button type="submit" className="btn btn-block btn-primary mt-3 text-uppercase">Add Item</button>
                 </form>
