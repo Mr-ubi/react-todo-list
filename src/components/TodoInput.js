@@ -15,7 +15,14 @@ export default class TodoInput extends Component {
                         onChange={handleChange}
                         aria-label="I need to input"/>
                     </div>
-                    <button type="submit" className="btn btn-block btn-primary mt-3 text-uppercase">Add Item</button>
+                    <button 
+                    type="submit"
+                    disabled={item?false:true}
+                    className={
+                        editItem?"btn btn-block btn-success mt-3 text-uppercase":"btn btn-block btn-primary mt-3 text-uppercase"
+                    }>
+                    {editItem?"Edit item" : "Add item"}
+                    </button>
                 </form>
             </div>
         )
