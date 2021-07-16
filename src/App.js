@@ -14,19 +14,19 @@ function App() {
 
 
   React.handleChange = (e) => {
-    console.log("handle change")
+    console.log("handle change");
   }
   React.handleSubmit = (e) => {
-    console.log("handle submit")
+    console.log("handle submit");
   }
   React.clearList = () => {
-    console.log("clear list")
+    console.log("clear list");
   }
   React.handleDelete = (id) => {
-    console.log("handle delete " + {id})
+    console.log("handle delete " + {id});
   }
   React.handleEdit = (id) => {
-    console.log("handle edit " + {id})
+    console.log("handle edit " + {id});
   }
 
   return (
