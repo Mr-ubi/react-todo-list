@@ -14,11 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path ='/' exact component={LoginPage}/>
           <Route path ='/TodoApp' exact component={TodoApp}/>
           <Route path ='/NavReact' exact component={NavReact}/>
         </Switch>
       </Router>
-      <LoginPage/>
     </div>
   );
 }
