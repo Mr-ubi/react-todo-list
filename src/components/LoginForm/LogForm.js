@@ -24,7 +24,7 @@ const LoginPage = () => {
                         </Form>
                     </Col>
                 </Row>
-                <h6 className="mt-5 p-5 text-center text-secondary ">OrgaLife 2021</h6>
+                <h6 className="mt-5 p-5 text-center text-secondary ">OrgaLife 2021. All rights reserved.</h6>
             </Container>
         </>
     );
