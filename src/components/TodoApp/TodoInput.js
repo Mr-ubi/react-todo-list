@@ -10,7 +10,7 @@ export default class TodoInput extends Component {
                         <span class="input-group-text">I need to </span>
                         <input 
                         type="text"
-                        className="form-control text-capitalize"
+                        className="form-control"
                         value={item}
                         onChange={handleChange}
                         aria-label="I need to input"/>

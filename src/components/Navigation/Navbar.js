@@ -13,8 +13,9 @@ const navbar = () => {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                <Link className="nav-link" to="/TodoApp">TodoApp</Link>
-                <Link className="nav-link" to="pl.reactjs.org">What is React?</Link>
+                <Link className="nav-link" to="/TodoApp">ToDoApp</Link>
+                <Link className="nav-link" to="/NavReact">What is React?</Link>
+                <Link className="nav-link" to="/LoginPage">Sign-In</Link>
             </div>
             </div>
         </div>
